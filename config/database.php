@@ -11,10 +11,10 @@ class Database {
     private ?PDO $conn = null;
 
     // Database configuration constants
-    private string $host = '127.0.0.1';
-    private string $db_name = 'telegram_reminder_db';
-    private string $username = 'root';
-    private string $password = '';
+    private string $host = 'localhost';
+    private string $db_name = 'synergy1_jeffrey_telegram_reminder_management_system';
+    private string $username = 'synergy1_yenping';
+    private string $password = 'R.zb0ZwEuGZ}*fW2';
     private string $charset = 'utf8mb4';
     private int $port = 3306;
 
