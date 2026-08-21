@@ -33,10 +33,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Database Connection Constants (can be edited for cPanel or custom environment)
-if (!defined('DB_HOST')) define('DB_HOST', '127.0.0.1');
-if (!defined('DB_NAME')) define('DB_NAME', 'telegram_reminder_db');
-if (!defined('DB_USER')) define('DB_USER', 'root');
-if (!defined('DB_PASS')) define('DB_PASS', '');
+if (!defined('DB_HOST')) define('DB_HOST', 'localhost');
+if (!defined('DB_NAME')) define('DB_NAME', 'synergy1_jeffrey_telegram_reminder_management_system');
+if (!defined('DB_USER')) define('DB_USER', 'synergy1_yenping');
+if (!defined('DB_PASS')) define('DB_PASS', 'R.zb0ZwEuGZ}*fW2');
 if (!defined('DB_PORT')) define('DB_PORT', 3306);
 
 // Determine Base URL dynamically
